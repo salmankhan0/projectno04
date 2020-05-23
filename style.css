@@ -1,0 +1,367 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.image img{
+    padding-left: 120px ;
+    width:300px;
+     height: 400px;
+    
+     
+}
+
+
+.image{
+    margin: 0px auto;
+    width: 50%;
+  
+}
+
+.firsthead{
+    margin: 0px auto;
+    width: 50%;
+    color: forestgreen;
+}
+
+
+.firsthead>h1{
+    padding-left: 188px;
+    text-transform: capitalize;
+}
+
+
+.sechead{
+    margin: 0px auto;
+    width: 90%;
+    color: darkviolet;
+    
+}
+.sechead h1{
+    padding-left: 196px;
+}
+
+.anker{
+    margin: 0px auto;
+    width: 50%;
+    /* font-family: Arial narrow; */
+}
+
+
+.anker a{
+    color: darkviolet;
+    font-size: 30px;
+    padding-left: 219px;
+    
+}
+
+.saylaniimage{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 10px auto ;
+    
+}
+.saylaniimage img{
+    width: 500px;
+    height: 191px;
+    padding: 20px 0px 0px 295px;
+    
+}
+
+.mainhead{
+    /* border: 1px solid red;  */
+    width: 100%;
+    margin: -20px auto;
+
+}
+
+.mainhead h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:bold;
+    padding-left: 300px;
+    color:   #5a5cbd;
+    text-decoration: underline;
+   
+}
+
+
+form{
+    width: 1100px;
+    margin: 0px auto ;
+}
+
+label{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 195px;
+    text-align: left;
+    padding-left: 17px;
+}
+.month{
+    text-transform: lowercase;
+    width: 63px;
+    height: 27px;
+}
+.day{
+    width: 63px;
+    height: 27px;
+}
+.year{
+    width: 63px;
+    height: 27px;
+}
+.sss{
+    text-transform: uppercase;
+}
+
+
+.paragraph{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.gender{
+    margin-top: 8px;
+}
+.contact{
+    margin-top: 7px;
+}
+input{
+    padding: 9px;
+    margin: 2px auto;
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-radius: 8px; */
+    width: 220px;
+
+    
+}
+input:focus{
+    border-color:royalblue ;
+    /* border-radius: 11px; */
+    box-shadow: 4px 4px 8px  grey
+}
+
+
+.button1{
+    width: 30%;
+    margin: 30px 345px 18px auto;
+}
+
+.button1 .button{
+    width: 100px;
+    border: none;
+    padding: 6px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+}
+
+.button:hover{
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+   
+}
+
+
+/* legend{
+    text-transform: capitalize;
+    color: royalblue;
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 13px;
+    padding: 10px;
+
+} */
+
+.loginform{
+    border: 1px solid GREY;
+    width: 100%;
+    margin: 60px auto 0px auto;
+    background-color: rgb(159, 233, 233);
+}
+
+/* fieldset{
+    border-radius: 10px;
+    border-color: lightgrey;
+    /* margin: 0 auto; */
+    /* background-color: rgb(159, 233, 233); */
+    /* width: 100%; */
+/* } */ */
+
+
+label.name{
+    text-align: center;
+    
+}
+.label1{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+input.name{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.FB-mG2vb2-vymcqExs788gHaHa&pid=Api&P=0&w=300&h=300);
+    background-size: 29px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 36px;
+    background-position-y: center;
+}
+/* input.password{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.yn6le0eKH68_fe9LIC1gDQHaHa&pid=Api&P=0&w=300&h=300);
+    background-size: 33px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+} */
+
+input.contact{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.3FOzQi0mH0RdHmXtPytjyAHaHa&pid=Api&P=0&w=300&h=300);
+    background-size: 31px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding: 10px 10px 10px 36px;
+}
+
+input.email{
+    background-image: url(https://cdn4.iconfinder.com/data/icons/cv-resume-2/32/mail2-512.png);
+    background-size: 31px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 36px;
+    background-position-y: center;
+}
+
+input.radio{
+     width: 40px;
+}
+
+.label5{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}
+
+input.radio4{
+    width: 40px;
+
+}
+
+.radio2{
+    
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.label2{
+    
+    margin-top: 60px;
+}
+
+
+.textarea {
+   position: absolute;
+   bottom: 0px;
+   right: 460px;
+}
+
+
+textarea{
+    border-radius: 6px;
+}
+
+
+textarea:focus{
+    box-shadow: 4px 4px 8px grey;
+    border-color: royalblue;
+
+}
+
+.bigcont{
+     /* border: 1px solid red; */
+     margin-top: 87px;
+}
+
+.checkbox{
+    width: 45px;
+}
+.Others{
+    width: 177px;
+
+}
+
+.check{
+    /* border: 1px solid red; */
+    width: 35%;
+    margin: 0px 0px 0px 216px;
+
+}
+
+.HOBBIES{
+    
+    margin-top: 23px;
+}
+
+.table{
+    margin-top: 27px;
+    border-collapse: collapse;
+    width: 1100px;
+}
+
+td,th{
+    
+    text-align: center;
+    padding: 0px 5px 0px 13px;
+    
+}
+
+.table.education{
+    margin:8px auto ;
+}
+
+.div{
+    width: 30%;
+    margin: 28px auto;
+}
+
+.submit1{
+    width: 115px;
+    padding-left: 0px;
+}
+
+.radio2 .label1{
+    padding-left: 6px;
+}
+
+.radio2 .radio4{
+    margin-left: 6px;
+}
+
+/* .bold{
+    width: 20%;
+    border: 1px solid red;
+}
+.seconddiv{
+    display:inline-flex;
+    width: 30%;
+    border: 1px solid red;
+} */
+
+
+.bigcont .city,.state,.pincode,.country {
+    width: 250px;
+    text-align: center;
+}
+
